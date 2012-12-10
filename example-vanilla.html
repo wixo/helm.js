@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HELM</title>
+</head>
+<body>
+
+	<div id="container"></div>
+
+	<script src="helm.js"></script>
+	<script>
+
+	var container    = document.getElementById('container'),
+	    homeFragment = document.createDocumentFragment();
+
+	var title      = $h1(),
+	    paragraphs = [ $p(), $p() ];
+
+	title.textContent         = 'Hello!';
+	paragraphs[0].textContent = 'Welcome to HelmJS, the Html Element Factory for jQuery and Vanilla Javascript.';
+	paragraphs[1].textContent = 'This is a second paragraph.';
+
+	homeFragment.appendChild( title );
+	homeFragment.appendChild( paragraphs[0] );
+	homeFragment.appendChild( paragraphs[1] );
+
+	container.appendChild( homeFragment );
+
+	</script>
+</body>
+</html>

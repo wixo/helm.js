@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HELM</title>
+</head>
+<body>
+
+	<div id="container"></div>
+	
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+	<script src="jquery.helm.js"></script>
+
+	<script>
+
+	var $container = $('#container');
+	$h1().text('Hello!').appendTo( $container );
+	$p().text('Welcome to HelmJS, the Html Element Factory for jQuery and Vanilla Javascript.').appendTo( $container );
+	$p().text('This is a second paragraph.').appendTo( $container );
+
+	</script>
+</body>
+</html>
