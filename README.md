@@ -12,13 +12,13 @@ This applies to *any* html tag we can use. ( or at least listed [here] (https://
 
 **Installation**
 
-Just paste or include the helm.js code before writing your own code and before any dependency if needed (as in the jQuery version)
+Just paste or include the helm.js code before writing your own code and after any dependency if needed (as in the jQuery version)
 
 Look inside the example files of each version to find the specific use.
 
 **More**
 
-For a deeper explanation ( with code review included ) go read my [blog post about helmjs] (http://b.juanlajara.com)
+For a deeper explanation ( with code review included ) go read my [blog post about helmjs] (http://b.juanlajara.com/post/37705310768/helmjs)
 
 And this is a Helm-et:
                                                                                                             
