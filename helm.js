@@ -44,10 +44,11 @@
 
 (function (global, scope, undefined) {
   'use strict';
-  //Since we are populating the window scope you can build a custom plugin that populates some namespace.
-  scope = scope || global;
-  //HTML elements as listed in MDN : https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_element_list.
-  var tags = ["html",                                                                                                     //Root element
+
+      //Explicitly support a few good DOM libraries
+  var $    = global.jQuery || global.Zepto || global.ender || function (e) { return e },
+      //HTML elements as listed in MDN : https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_element_list.
+      tags = ["html",                                                                                                     //Root element
               "head", "title", "base", "link", "meta", "style",                                                           //Document metadata
               "script", "noscript",                                                                                       //Scripting
               "body", "section", "nav", "article", "aside",                                                               //Sections
@@ -65,9 +66,12 @@
               "details", "summary", "command", "menu"],                                                                   //Interactive elements
       //Returns the Created Element
       $h   = function (name) { 
-              return document.createElement(name); 
+              return $(document.createElement(name));
           },
       i    = tags.length;
+
+  //Since we are populating the window scope you can build a custom plugin that populates some namespace.
+  scope = scope || global;
 
   while (i--) {
     //Populates the scope with the Html handlers, we prepend the '$' symbol as some developers use it to indicate a DOM element.
