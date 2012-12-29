@@ -18,7 +18,9 @@ Look inside the example files of each version to find the specific use.
 
 **More**
 
-For a deeper explanation ( with code review included ) go read my [blog post about helmjs] (http://b.juanlajara.com/post/37705310768/helmjs)
+For a deeper explanation ( with code review included ) go read my [blog post about helmjs] (http://b.juanlajara.com/post/37705310768/helmjs).
+
+Found any typo or grammar misuse? [please report it](https://github.com/wixo/helm.js/issues/1).
 
 And this is a Helm-et:
                                                                                                             
