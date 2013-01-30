@@ -1,17 +1,17 @@
 //
 //
-//			Helm.js
-//			Curry based DOM Factory Wrapper
-//			https://github.com/wixo/helm.js
+//      Helm.js
+//      Curry based DOM Factory Wrapper
+//      https://github.com/wixo/helm.js
 //
-//			Usage: $div === document.createElement('div')
+//      Usage: $div === document.createElement('div')
 //
-//			http://wxo.me/helm-blog to know the status on the development of this plugin
+//      http://wxo.me/helm-blog to know the status on the development of this plugin
 //
-//			@version: 0.0.1 Alpha-2
-//			@author : Juan La Jara http://juanlajara.com/
-//			@date   : 2013.01.30
-//			@license: I guess it should be MIT
+//      @version: 0.0.1 Alpha-2
+//      @author : Juan La Jara http://juanlajara.com/
+//      @date   : 2013.01.30
+//      @license: I guess it should be MIT
 //
 //
 
