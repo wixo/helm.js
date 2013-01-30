@@ -1,6 +1,6 @@
 //
 //      Helm.js
-//      Curry based DOM Factory Wrapper
+//      DOM Factory Wrapper
 //      https://github.com/wixo/helm.js
 //
 //      @version: 0.0.1 Alpha-2

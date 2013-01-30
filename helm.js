@@ -1,7 +1,7 @@
 //
 //
 //      Helm.js
-//      Curry based DOM Factory Wrapper
+//      DOM Factory Wrapper
 //      https://github.com/wixo/helm.js
 //
 //      Usage: $div === document.createElement('div')

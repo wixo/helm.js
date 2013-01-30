@@ -1,14 +1,15 @@
 helm.js
 =======
 
-Curry based (jQuery) DOM Factory Wrapper
+(jQuery and friends) DOM Factory Wrapper
 
 **Overview**
 
-`$div() === $('<div>');                    //in the jQuery version OR`
-`$div() === document.createElement('div'); //in the vanilla Javascript version`
+`$div === $('<div>');                    //in the jQuery version OR`
+`$div === document.createElement('div'); //in the vanilla Javascript version`
 
-This applies to *any* html tag we can use. ( or at least listed [here] (https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_element_list) )
+This applies to *any* html tag we can use. ( or at least listed [here](http://wxo.me/html5-elements) )
+You also can use it with another $ libraries like Zepto or Ender.
 
 **Installation**
 
@@ -18,7 +19,7 @@ Look inside the example files of each version to find the specific use.
 
 **More**
 
-For a deeper explanation ( with code review included ) go read my [blog post about helmjs] (http://b.juanlajara.com/post/37705310768/helmjs).
+For a deeper explanation ( with code review included ) go read my [blog post about helmjs](http://wxo.me/helm-blog).
 
 Found any typo or grammar misuse? [please report it](https://github.com/wixo/helm.js/issues/1).
 
