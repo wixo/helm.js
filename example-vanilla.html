@@ -3,19 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HELM</title>
+	<style>
+	body {
+		background: whitesmoke;
+		font-family: sans-serif;
+		padding: 8em;
+	}
+	</style>
 </head>
 <body>
 
 	<div id="container"></div>
 
-	<script src="helm.js"></script>
+	<script src="helm-min.js"></script>
 	<script>
 
 	var container    = document.getElementById('container'),
 	    homeFragment = document.createDocumentFragment();
 
-	var title      = $h1(),
-	    paragraphs = [ $p(), $p() ];
+	var title      = $h1,
+	    paragraphs = [ $p, $p ];
 
 	title.textContent         = 'Hello!';
 	paragraphs[0].textContent = 'Welcome to HelmJS, the Html Element Factory for jQuery and Vanilla Javascript.';
