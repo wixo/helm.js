@@ -22,15 +22,19 @@
 	    homeFragment = document.createDocumentFragment();
 
 	var title      = $h1,
-	    paragraphs = [ $p, $p ];
+	    paragraphs = [ $p, $p ],
+	    link       = $a;
 
 	title.textContent         = 'Hello!';
 	paragraphs[0].textContent = 'Welcome to HelmJS, the Html Element Factory for jQuery and Vanilla Javascript.';
 	paragraphs[1].textContent = 'This is a second paragraph.';
+	link['href']              = 'index.html';
+	link.textContent          = 'Visit the jQuery version.';
 
 	homeFragment.appendChild( title );
 	homeFragment.appendChild( paragraphs[0] );
 	homeFragment.appendChild( paragraphs[1] );
+	homeFragment.appendChild( link );
 
 	container.appendChild( homeFragment );
 
